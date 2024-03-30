@@ -6,9 +6,17 @@ const Content = () => {
     const int = Math.floor(Math.random() * names.length);
     return names[int];
   };
+
+  const handleClick = () => {
+    console.log("====================================");
+    console.log("You clicked");
+    console.log("====================================");
+  };
+
   return (
     <main>
       <p>Hello {handleNameChange()}!</p>
+      <button onClick={handleClick}>Click It</button>
     </main>
   );
 };
