@@ -20,7 +20,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: calc(100vh-2px);
   width: 100%;
   max-width: 500px;
   border: 1px solid darkcyan;
@@ -28,7 +28,7 @@ body {
 }
 
 header {
-  width: 100%;
+  width: calc(100% - 2px);
   padding: 0 0.25em;
   background-color: darkcyan;
   color: whitesmoke;
@@ -39,6 +39,7 @@ header {
 
 main {
   width: 100%;
+  height: calc(100vh - 4em);
   display: flex;
   flex-direction: column;
   flex-grow: 1;
