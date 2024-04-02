@@ -1,6 +1,6 @@
 import React from "react";
 
-const Cell = ({ key, cellData }) => {
+const Cell = ({ cellData }) => {
   return <td>{cellData}</td>;
 };
 
